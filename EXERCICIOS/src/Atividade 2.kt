@@ -1,22 +1,30 @@
 fun main(args: Array<String>) {
 
-    var idade1: Int = 20
-    var salariobruto: Double = 1.700
+    var idade1 = 20
+    var salariobruto = 1700
     var nome: String = "Kaue"
-    var mesestrab: Int = 12
-    var quantprod: Int = 3
+    var mesestrab = 12
+    var quantprod = 3
 
-    var salarioanual: Double = salariobruto * mesestrab
-    var desconto: Double = 1.000
-    var salarioliq: Double = salarioanual - desconto
+    var salarioanual = salariobruto * mesestrab
+    var desconto = 1000
+    var salarioliq = salarioanual - desconto
 
-    var prod1: Double = 25.5
-    var prod2: Double = 10.0
-    var prod3: Double = 7.0
+    var prod1 = 25
+    var prod2 = 10
+    var prod3 = 1
 
-    var somavalorprod: Double = prod1 + prod2 + prod3
-    var medvalor: Double = somavalorprod / quantprod
+    var somavalorprod = prod1 + prod2 + prod3
+    var medvalor = somavalorprod / quantprod
 
 
     println("Meu nome é $nome, e meu salario anual é de $salarioliq")
+
+    println("Tenho $idade1 anos")
+    println("Meu salario bruto é de $salariobruto")
+    println("Meu salario anual é de $salarioanual")
+    println("Produto 1 valor $prod1")
+    println("Produto 2 valor $prod2")
+    println("Produto 3 valor $prod3")
+    println("A media de valor dos produtos é de $medvalor")
 }
